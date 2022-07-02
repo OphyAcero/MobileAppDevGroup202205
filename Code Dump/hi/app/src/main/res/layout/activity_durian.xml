@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".durian">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="196dp"
+        android:text="Durian."
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="273dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/durian"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="335dp"
+        android:layout_height="374dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="36dp"
+        android:text="The durian (/ˈdʊəriən/, /ˈdjʊəriən/) is the edible fruit of several tree species belonging to the genus Durio. There are 30 recognised Durio species, at least nine of which produce edible fruit. Durio zibethinus, native to Borneo and Sumatra, is the only species available in the international market. It has over 300 named varieties in Thailand and 100 in Malaysia, as of 1987. Other species are sold in their local regions. Durians are commonly associated with Southeast Asian cuisine, especially in Indonesia, Malaysia, Singapore, Thailand and Vietnam.
+
+Named in some regions as the king of fruits, the durian is distinctive for its large size, strong odour, and thorn-covered rind. The fruit can grow as large as 30 centimetres (12 inches) long and 15 cm (6 in) in diameter, and it typically weighs 1 to 3 kilograms (2 to 7 pounds). Its shape ranges from oblong to round, the colour of its husk green to brown, and its flesh pale yellow to red, depending on the species.
+
+An acquired taste, some people regard the durian as having a pleasantly sweet fragrance, whereas others find the aroma overpowering and unpleasant.  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
