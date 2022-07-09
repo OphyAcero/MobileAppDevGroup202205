@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ui.langsat.LangsatFragment">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="195dp"
+        android:src="@drawable/langsat" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="195dp"
+        android:paddingRight="10dp"
+        android:text="     A not so known fact about Langsat is that it can cure colon cancer and help with constipation. That's right, if you know this, you'll be devouring even the mild sourness of this transparent fleshy fruit which renders nothing but health benefits. A bite of it yields a punch of good juices filled with fibre. The Langsat isn't so unique to Malaysia but is sure a hit in the country. A bit of sweet and sour of the fruit helps strike a balance with the flavours and bring optimum mouthfeel."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+</FrameLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fruitapplication2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_langsat"
+        android:name="com.example.fruitapplication2.ui.langsat.LangsatFragment"
+        android:label="@string/menu_langsat"
+        tools:layout="@layout/fragment_langsat" />
+
+    <fragment
+        android:id="@+id/nav_cempedek"
+        android:name="com.example.fruitapplication2.ui.cempedek.CempedekFragment"
+        android:label="@string/menu_cempedek"
+        tools:layout="@layout/fragment_cempedek" />
+
+    <fragment
+        android:id="@+id/nav_durian"
+        android:name="com.example.fruitapplication2.ui.durian.DurianFragment"
+        android:label="@string/menu_durian"
+        tools:layout="@layout/fragment_langsat" />
+
+    <fragment
+        android:id="@+id/nav_manggis"
+        android:name="com.example.fruitapplication2.ui.manggis.ManggisFragment"
+        android:label="@string/menu_manggis"
+        tools:layout="@layout/fragment_manggis" />
+
+    <fragment
+        android:id="@+id/nav_otaheite"
+        android:name="com.example.fruitapplication2.ui.otaheite.OtaheiteFragment"
+        android:label="@string/menu_otaheite"
+        tools:layout="@layout/fragment_otaheite" />
+
+    <fragment
+        android:id="@+id/nav_rambutan"
+        android:name="com.example.fruitapplication2.ui.rambutan.RambutanFragment"
+        android:label="@string/menu_rambutan"
+        tools:layout="@layout/fragment_rambutan" />
+</navigation>
